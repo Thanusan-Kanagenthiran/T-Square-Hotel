@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> T-Square Hotel & Restaurants </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="description"
+        content="Welcome to T-Square Hotel & Restaurants - your premier destination for luxurious accommodations and exquisite dining experiences. Explore our rooms, amenities, and fine dining options.">
+    <meta name="keywords"
+        content="T-Square Hotel, T-Square Restaurants, luxury hotel, fine dining, accommodations, hospitality">
+    <meta name="author" content="T-Square, Thanusan Kanagenthiran">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./styles/mobile.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/hotel-logo.png" height="40px" alt="">
+                </div>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="showcase">
+
+            <div class="showcase-content">
+                <div class="container">
+                    <h1>
+                        <span class="text-primary" id="typed-js"></span> your
+                        Stay
+                    </h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Tempore, facilis, sint delectus at ad totam fugit
+                        consequatur ipsum facere blanditiis, maiores veritatis
+                        minima voluptate repudiandae eos fugiat repellendus
+                        laborum perspiciatis.</p>
+                    <a class="btn" href="about.html">About Our Hotel</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home-info" class="bg-dark">
+        <div class="info-img"></div>
+        <div class="info-content">
+            <h2><span class="text-primary">The History</span> Our Hotel</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                dolorem
+                incidunt ex totam exercitationem ad quas architecto expedita
+                ullam
+                laborum. Unde inventore odit optio placeat ipsum! Cupiditate
+                aliquam
+                accusamus autem!</p>
+            <a href="#" class="btn btn-light">Read More</a>
+        </div>
+    </section>
+
+
+    <section id="features">
+        <div class="box bg-light">
+            <i class="bi bi-geo-alt"></i>
+            <h3> Location</h3>
+            <p>Conveniently located in the heart of the city, offering easy
+                access
+                to attractions, shopping, and dining.</p>
+        </div>
+        <div class="box bg-primary">
+            <i class="bi bi-person"></i>
+            <h3> Concierge Service</h3>
+            <p>Our dedicated concierge team is available 24/7 to assist you with
+                all
+                your needs, from restaurant reservations to travel arrangements.
+            </p>
+        </div>
+        <div class="box bg-light">
+            <i class="bi bi-wifi"></i>
+            <h3> High-speed Wi-Fi</h3>
+            <p>Stay connected with complimentary high-speed Wi-Fi available
+                throughout the hotel premises.</p>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <footer id="main-footer">
+        <p>
+            Hotel T-Square &copy; 2024, All rights reserved
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        // Initialize Typed.js after the page content has loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            var typed = new Typed('#typed-js', {
+                strings: ['Enjoy', 'Experience', 'Relax during'],
+                typeSpeed: 100,
+                backSpeed: 50,
+                loop: true
+            });
+        });
+    </script>
+
+</body>
+
+</html>
