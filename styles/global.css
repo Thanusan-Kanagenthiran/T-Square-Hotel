@@ -229,8 +229,8 @@ p {
 }
 
 #testimonials .testimonial img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     float: left;
     margin-right: 20px;
     border-radius: 50%;
@@ -247,7 +247,8 @@ p {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 5px;
-    opacity: 0.9;
+    opacity: 0.95;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
 /* contact-form  */
